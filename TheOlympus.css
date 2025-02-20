@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.navbar a{
+    color: #ff914d    ;
+    padding: 40px 40px;
+    text-decoration: none;
+    background-color: #5e17eB;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ff914d;
+    color: #5e17eB ;
+    text-decoration: none;
+}
+
+.navbar h1 {
+    color: #5e17eb    ;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.navbara {
+    display: block;
+    background-color: #5e17eb;
+}
+
+.navbara h2 {
+    color: #ff914d    ;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 100px 0;
+    
+}
+
+
+
+
+
+
+.contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.contenedor .cartas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    background: #230364;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px #4f14c6;
+}
+
+.contenedor .cartas:hover {
+    height: 300px;
+}
+
+.contenedor .cartas .caja-img1 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .caja-img2 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .caja-img3 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .caja-img4 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .caja-img5 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .caja-img6 {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas:hover .caja-img1 {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgb(0, 242, 255);
+}
+
+.contenedor .cartas:hover .caja-img2 {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgb(13, 0, 255);
+}
+
+.contenedor .cartas:hover .caja-img3 {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgb(0, 103, 11);
+}
+
+.contenedor .cartas:hover .caja-img4 {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgb(47, 255, 0);
+}
+
+.contenedor .cartas:hover .caja-img5 {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgb(255, 0, 0);
+}
+
+.contenedor .cartas:hover .caja-img6 {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgb(216, 79, 229);
+}
+
+.contenedor .cartas .caja-img1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .cartas .caja-img2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .cartas .caja-img3 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .cartas .caja-img4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .cartas .caja-img5 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .cartas .caja-img6 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor .cartas .contenido1 {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .contenido2 {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .contenido3 {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .contenido4 {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .contenido5 {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas .contenido6 {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.contenedor .cartas:hover .contenido1 {
+    top: 130px;
+    height: 250px;
+}
+
+.contenedor .cartas .contenido1 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 208, 255);
+}
+
+.contenedor .cartas .contenido1 p {
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido1 a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background:  #ff914d;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor .cartas:hover .contenido2 {
+    top: 130px;
+    height: 250px;
+}
+
+.contenedor .cartas .contenido2 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(110, 110, 247);
+}
+
+.contenedor .cartas .contenido2 p {
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido2 a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background:  #ff914d;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor .cartas:hover .contenido3 {
+    top: 130px;
+    height: 250px;
+}
+
+.contenedor .cartas .contenido3 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(70, 127, 70);
+}
+
+.contenedor .cartas .contenido3 p {
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido3 a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background:  #ff914d;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor .cartas:hover .contenido4 {
+    top: 130px;
+    height: 250px;
+}
+
+.contenedor .cartas .contenido4 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 255, 0);
+}
+
+.contenedor .cartas .contenido4 p {
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido4 a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background:  #ff914d;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor .cartas:hover .contenido5 {
+    top: 130px;
+    height: 250px;
+}
+
+.contenedor .cartas .contenido5 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(248, 84, 84);
+}
+
+.contenedor .cartas .contenido5 p {
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido5 a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background:  #ff914d;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor .cartas:hover .contenido6 {
+    top: 130px;
+    height: 250px;
+}
+
+.contenedor .cartas .contenido6 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: violet;
+}
+
+.contenedor .cartas .contenido6 p {
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido6 a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background: #ff914d;
+    color: white;
+    font-weight: 500;
+}
+
+.contenedor .cartas .contenido1 a:hover {
+    opacity: 0.8;
+    background-color: rgb(0, 242, 255);
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido2 a:hover {
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 217, 255);
+}
+
+.contenedor .cartas .contenido3 a:hover {
+    opacity: 0.8;
+    background-color: rgb(0, 103, 11);
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido4 a:hover {
+    opacity: 0.8;
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido5 a:hover {
+    opacity: 0.8;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.contenedor .cartas .contenido6 a:hover {
+    opacity: 0.8;
+    background-color: rgb(216, 79, 229);
+    color: rgb(255, 255, 255);
+}
+
+button{
+    padding: 10px;
+    background-color: #5e17eb;
+    color: #ff914d;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover{
+    background-color: #ff914d;
+    color: #5e17eb;
+}
+
+footer {
+    background-color: #5e17eb;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
